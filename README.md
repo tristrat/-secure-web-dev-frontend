@@ -30,7 +30,7 @@ npm install
 ```bash
 npm run dev
 ```
-pour démarer il faut faire tourner sur le meme port le parck en rollback et le front en serveur ou dev
+pour démarer il faut faire tourner sur le meme port le back en rollback et le front en serveur ou dev
 
 une fois sur une page , si un un url est modifier il faut recharger la page,
 la plus part du temps l'affichage ne suit pas.
