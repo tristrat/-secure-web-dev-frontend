@@ -4,7 +4,7 @@
     async function handleSubmit(event) {
         event.preventDefault();
         try {
-            await fetch('http://localhost:8000/locations', {
+            await fetch(process.env.BACKEND_URL, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
